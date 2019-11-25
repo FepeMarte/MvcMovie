@@ -23,5 +23,8 @@ namespace MvcMovie.Models
 
         [Display(Name = "Preço")]
         public decimal Price { get; set; }
+        [Display(Name = "Classificação")]
+        public string Rating { get; set; }
     }
 }
+
